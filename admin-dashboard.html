@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>People Monitor - Admin Dashboard</title>
+
+  <link rel="stylesheet" type="text/css" href="./assets/semantic/semantic.min.css">
+
+  <style type="text/css">
+    body {
+      background-color: #FFFFFF;
+    }
+    .ui.menu .item img.logo {
+      margin-right: 1.5em;
+    }
+    .main.container {
+      margin-top: 7em;
+    }
+    .wireframe {
+      margin-top: 2em;
+    }
+    .ui.footer.segment {
+      margin: 5em 0em 0em;
+      padding: 5em 0em;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="ui fixed inverted menu">
+    <div class="ui container">
+      <a href="#" class="header item">
+        EMU People Monitor
+      </a>
+
+      <div class="right menu">
+        <a href="#" class="item">Home</a>
+        <div class="ui simple dropdown item">
+          Food & Retail <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item" href="#">Chipotle</a>
+            <a class="item" href="#">Falling Sky</a>
+            <a class="item" href="#">Fresh Corner Market</a>
+            <a class="item" href="#">Jamba Juice</a>
+            <a class="item" href="#">Panda Express</a>
+            <a class="item" href="#">Starbucks</a>
+            <a class="item" href="#">Subway</a>
+            <a class="item" href="#">Townshend's</a>
+            <a class="item" href="#">Toxic Wings Express</a>
+            <a class="item" href="#">Duck Store At The EMU</a>
+            <a class="item" href="#">US Bank</a>
+          </div>
+        </div>
+        <div class="ui simple dropdown item">
+          Student Services <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item" href="#">Computer Lab</a>
+            <a class="item" href="#">Campus Copy</a>
+            <a class="item" href="#">Craft Center</a>
+            <a class="item" href="#">ID Card Services</a>
+            <a class="item" href="#">Ticket Office</a>
+            <a class="item" href="#">ASUO</a>
+            <a class="item" href="#">Student Sustainability Center</a>
+            <a class="item" href="#">ROAR Center</a>
+            <a class="item" href="#">Club Sports</a>
+            <a class="item" href="#">Outdoor Program & Bike Program</a>
+            <a class="item" href="#">Women's Center</a>
+            <a class="item" href="#">LGBTQA3</a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="ui main text container one column grid cards">
+    <div class="ui fluid card">
+      <div class="content">
+        <div class="header">Spaces</div>
+      </div>
+      <div class="content">
+        <h4 class="ui sub header">Last Status</h4>
+        <div class="ui small feed">
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                Location #1: <div class="ui green horizontal label"><i class="check icon"></i>Not at capacity</div> <div class="ui teal horizontal label">Allowed Capacity: 100</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                Location #2: <div class="ui red horizontal label"><i class="minus circle icon"></i>Avoid this space</div> <div class="ui teal horizontal label">Allowed Capacity: 50</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                Location #3: <div class="ui horizontal label"><i class="question icon"></i>Unknown</div> <div class="ui teal horizontal label">Allowed Capacity: 25</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra content">
+        <button class="ui button">Administer Spaces</button>
+      </div>
+    </div>
+    <div class="ui fluid card">
+      <div class="content">
+        <div class="header">Sensors</div>
+      </div>
+      <div class="content">
+        <h4 class="ui sub header">Activity</h4>
+        <div class="ui small feed">
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                Sensor #1: <div class="ui yellow horizontal label">Last Hour: 123</div> <div class="ui olive horizontal label">Current Hour: 321</div>
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                Sensor #2: <div class="ui yellow horizontal label">Last Hour: 123</div> <div class="ui olive horizontal label">Current Hour: 321</div>
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                Sensor #3: <div class="ui yellow horizontal label">Last Hour: 123</div> <div class="ui olive horizontal label">Current Hour: 321</div>
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                Sensor #4: <div class="ui yellow horizontal label">Last Hour: 123</div> <div class="ui olive horizontal label">Current Hour: 321</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra content">
+        <button class="ui button">Adjust Sensors</button>
+      </div>
+    </div>
+  </div>
+  <div class="ui main text container two column grid cards">
+    <div class="ui fluid card">
+      <div class="content">
+        <div class="header">Food & Retail Services</div>
+        <div class="meta">2 days ago</div>
+        <div class="description">
+          <table class="ui very basic collapsing celled table">
+            <thead>
+              <tr>
+                <th>Service</th>
+                <th>Open</th>
+                <th>Close</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <h4 class="ui image header">
+                    <div class="content">
+                      Chipotle <div class="sub header">Open</div>
+                    </div>
+                  </h4>
+                </td>
+                <td>
+                  10:00AM
+                </td>
+                <td>
+                  2:00PM
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4 class="ui image header">
+                    <div class="content">
+                      Falling Sky <div class="sub header">Open</div>
+                    </div>
+                  </h4>
+                </td>
+                <td>
+                  03:00PM
+                </td>
+                <td>
+                  12:00PM
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4 class="ui image header">
+                    <div class="content">
+                      Fresh Corner Market <div class="sub header">Open</div>
+                    </div>
+                  </h4>
+                </td>
+                <td>
+                  9:00AM
+                </td>
+                <td>
+                  1:00PM
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4 class="ui image header">
+                    <div class="content">
+                      Starbucks <div class="sub header">Closed</div>
+                    </div>
+                  </h4>
+                </td>
+                <td>
+                  11:45AM
+                </td>
+                <td>
+                  5:00PM
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="ui fluid card">
+      <div class="content">
+        <div class="header">Student Services</div>
+        <div class="meta">2 days ago</div>
+        <div class="description">
+          <table class="ui very basic collapsing celled table">
+            <thead>
+              <tr>
+                <th>Service</th>
+                <th>Open</th>
+                <th>Close</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <h4 class="ui image header">
+                    <div class="content">
+                      Computer Lab <div class="sub header">Open</div>
+                    </div>
+                  </h4>
+                </td>
+                <td>
+                  10:00AM
+                </td>
+                <td>
+                  2:00PM
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4 class="ui image header">
+                    <div class="content">
+                      Campus Copy <div class="sub header">Open</div>
+                    </div>
+                  </h4>
+                </td>
+                <td>
+                  03:00PM
+                </td>
+                <td>
+                  12:00PM
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4 class="ui image header">
+                    <div class="content">
+                      Craft Center <div class="sub header">Open</div>
+                    </div>
+                  </h4>
+                </td>
+                <td>
+                  9:00AM
+                </td>
+                <td>
+                  1:00PM
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4 class="ui image header">
+                    <div class="content">
+                      ID Card Services <div class="sub header">Closed</div>
+                    </div>
+                  </h4>
+                </td>
+                <td>
+                  11:45AM
+                </td>
+                <td>
+                  5:00PM
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+      <div class="ui stackable inverted divided grid">
+        <div class="five wide column">
+          <a href="http://studentlife.uoregon.edu/" class="ui inverted header">Division of Student Life</a>
+          <div class="ui inverted link list">
+            <a href="http://career.uoregon.edu/" class="item">University Career Center</a>
+            <a href="http://dos.uoregon.edu/" class="item">Office of the Dean of Students</a>
+            <a href="http://emu.uoregon.edu/" class="item">Erb Memorial Union</a>
+            <a href="http://holden.uoregon.edu/" class="item">Holden Center for Leadership and Community Engagement</a>
+            <a href="http://rec.uoregon.edu/" class="item">Department of Physical Education and Recreation</a>
+            <a href="http://families.uoregon.edu/" class="item">Parent and Family Programs</a>
+          </div>
+        </div>
+        <div class="four wide column">
+          <h4 class="ui inverted header">Student Services</h4>
+          <div class="ui inverted link list">
+            <a href="https://financialaid.uoregon.edu/" class="item">Office of Financial Aid and Scholarships</a>
+            <a href="https://registrar.uoregon.edu/" class="item">Office of the Registrar</a>
+            <a href="http://counseling.uoregon.edu/" class="item">University Counseling Center</a>
+            <a href="http://housing.uoregon.edu/" class="item">University Housing</a>
+            <a href="http://testing.uoregon.edu/" class="item">University Testing Center</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header">Contact Us</h4>
+          <p><b>Erb Memorial Union</b><br />1395 University St.<br />Eugene, OR 97403-1232<br />Office: Erb Memorial Union</p>
+          <p>P: 541-346-4163<br />P: 541-346-3705</p>
+        </div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      EMU People Monitors<br />
+      <div class="ui horizontal inverted small divided link list">
+        <a class="item" href="https://uoregon.edu/accessibility">Accessibility</a>
+        <a class="item" href="https://hr.uoregon.edu/jobs/available-positions">Careers</a>
+        <a class="item" href="https://registrar.uoregon.edu/records-privacy">Privacy Policy</a>
+        <a class="item" href="https://uoregon.edu/about">About</a>
+        <a class="item" href="https://uoregon.edu/findpeople/">Find People</a>
+      </div>
+      <div class="ui inverted section divider"></div>
+      Ryan Gurnick & Mac Weinstock <br />
+      2020
+    </div>
+  </div>
+</body>
+
+</html>
